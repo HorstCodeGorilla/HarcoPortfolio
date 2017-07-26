@@ -20,7 +20,7 @@ if (screen.width < 960) {
     		var t = $(this);
     		var dataperc = t.attr('data-perc'),
     				barperc = Math.round(dataperc*1.68);
-    		t.find('.bar').animate({width:barperc}, dataperc*1500);
+    		t.find('.bar').animate({width:barperc}, dataperc*750);
     		t.find('.label').append('<div class="perc"></div>');
 
 
@@ -46,7 +46,7 @@ else {
     		var t = $(this);
     		var dataperc = t.attr('data-perc'),
     				barperc = Math.round(dataperc*5.56);
-    		t.find('.bar').animate({width:barperc}, dataperc*1500);
+    		t.find('.bar').animate({width:barperc}, dataperc*750);
     		t.find('.label').append('<div class="perc"></div>');
 
 

@@ -56,8 +56,26 @@
 	font-family: 'night_still_comesregular';
 	font-weight:600;
 	margin-top:20px;
-	margin-left: -8vw;
 }
+
+@media screen and (max-width: 760px) {
+			.btn-default {
+				color: #333;
+				background-color:transparent;
+				border-color:transparent;
+				padding:5px 30px;
+				border-radius: 30px;
+				font-size: 15px;
+			background-image:none;
+			box-shadow:none;
+			border:1px solid #000;
+			font-family: 'night_still_comesregular';
+			font-weight:600;
+			margin-top:20px;
+			margin-left: -8vw;
+			}
+		}
+
 	.btn-default:hover {
 		background:transparent;
 		color:red;
@@ -94,12 +112,13 @@ PRE LOADER
 }
 
 
-   .header_area{min-height:600px;background:url(../img/harco3.jpg)no-repeat scroll center center;background-size:cover;}
+   .header_area{min-height:600px;background:url(../img/harco8.jpg)no-repeat scroll center center;background-size:cover;}
    .main_header
    {
 	   text-align:center;
 	   margin-top: 200px;
 	   color:#fff;
+		 /*margin-right: 2vw;*/
 	}
 
 	.main_header h2
@@ -373,11 +392,20 @@ PRE LOADER
 		}
 
 		.skill-harco {
-			margin-left: 10vw;
+			margin-left: -6vw;
 			margin-top: -9px;
 		}
 
-		@media screen and (max-width: 768px) {
+		.progress-soft {
+		 margin-left: 10vw;
+	 }
+
+	 .soft-skills {
+		 margin-left: -8vw;
+		 margin-top: -9px;
+	 }
+
+		@media screen and (max-width: 760px) {
 		    .progress-harco {
 		        margin-top: 75vh;
 						margin-left: 15vw;
@@ -387,79 +415,77 @@ PRE LOADER
 					margin-left: -100px;
 					margin-top: -9px;
 				}
+
+				.progress-soft {
+ 	 			 margin-left: 32vw;
+ 	 		 }
+
+ 	 		 .soft-skills {
+ 	 			 margin-left: -84vw;
+ 	 			 margin-top: -9px;
+ 	 		 }
+
+ 				.progressbar{
+ 				    position:relative;
+ 				    display:block;
+ 				    width:200px;
+ 				    height:30px;
+ 				    padding:18px 20px;
+ 				    border-bottom:1px solid rgba(255,255,255,0.25);
+ 				    border-radius:16px;
+ 				    margin:40px auto;
+ 				    -webkit-box-shadow: 0px 4px 4px -4px rgba(255, 255, 255, 0.4),0px -3px 3px -3px rgba(255, 255, 255, 0.25),inset 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+ 				    box-shadow: 0px 4px 4px -4px rgba(255, 255, 255, 0.4),0px -3px 3px -3px rgba(255, 255, 255, 0.25),inset 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+ 				}
+ 				.progressbar:before{
+ 				    position:absolute;
+ 				    display:block;
+ 				    content:"";
+ 				    width:170px;
+ 				    height:18px;
+ 				    top:9px;
+ 				    left:18px;
+ 					-webkit-border-radius:20px;
+ 				    border-radius:20px;
+ 				    background:#222;
+ 					-webkit-box-shadow: inset 0px 0px 6px 0px rgba(0, 0, 0, 0.85);;
+ 				    box-shadow: inset 0px 0px 6px 0px rgba(0, 0, 0, 0.85);
+ 					border:1px solid rgba(0,0,0,0.8);
+ 				}
+ 			}
+
+	 	 @media screen and (min-width:800px - max-width: 1366px) {
+			 .soft-skills {
+ 	 			 margin-left: -12vw;
+ 	 			 margin-top: -9px;
+ 	 		 }
+
+			 .progress-soft {
+				margin-left: 15vw;
 			}
+		 }
 
-			.progress-soft {
-	 		 margin-left: 10vw;
-	 	 }
+		 @media screen and (max-width: 350px) {
+			  .progress-harco {
+ 			 		margin-top: 90vh;
+ 			 		margin-left: 23vw;
+ 			 }
 
-	 	 .soft-skills {
-	 		 margin-left: -8vw;
-	 		 margin-top: -9px;
-	 	 }
+ 			 .skill-harco {
+ 			 	margin-left: -100px;
+ 			 	margin-top: -9px;
+ 			 }
 
-	 	 @media screen and (max-width: 768px) {
-	 		 .progress-soft {
-	 			 margin-left: 28vw;
-	 		 }
+			 .soft-skills {
+ 	 			 margin-left: -98vw;
+ 	 			 margin-top: -9px;
+ 	 		 }
 
-	 		 .soft-skills {
-	 			 margin-left: -85vw;
-	 			 margin-top: -9px;
-	 		 }
-
-				.progressbar{
-				    position:relative;
-				    display:block;
-				    width:200px;
-				    height:30px;
-				    padding:18px 20px;
-				    border-bottom:1px solid rgba(255,255,255,0.25);
-				    border-radius:16px;
-				    margin:40px auto;
-				    -webkit-box-shadow: 0px 4px 4px -4px rgba(255, 255, 255, 0.4),0px -3px 3px -3px rgba(255, 255, 255, 0.25),inset 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
-				    box-shadow: 0px 4px 4px -4px rgba(255, 255, 255, 0.4),0px -3px 3px -3px rgba(255, 255, 255, 0.25),inset 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
-				}
-				.progressbar:before{
-				    position:absolute;
-				    display:block;
-				    content:"";
-				    width:170px;
-				    height:18px;
-				    top:9px;
-				    left:18px;
-					-webkit-border-radius:20px;
-				    border-radius:20px;
-				    background:#222;
-					-webkit-box-shadow: inset 0px 0px 6px 0px rgba(0, 0, 0, 0.85);;
-				    box-shadow: inset 0px 0px 6px 0px rgba(0, 0, 0, 0.85);
-					border:1px solid rgba(0,0,0,0.8);
-				}
+			 .progress-soft {
+				 margin-top: -13vh;
+				margin-left: 32vw;
 			}
-
-				/*@media screen and (max-width: 1080px) {
-				    .progress-harco {
-				        margin-top: -20vh;
-								margin-left: 1vw;
-				    }
-
-						.skill-harco {
-							margin-left: -100px;
-							margin-top: -9px;
-						}
-
-						.progressbar{
-						    position:relative;
-						    display:block;
-						    width:300px;
-						    height:30px;
-						    padding:18px 20px;
-						    border-bottom:1px solid rgba(255,255,255,0.25);
-						    border-radius:16px;
-						    margin:40px auto;
-						    -webkit-box-shadow: 0px 4px 4px -4px rgba(255, 255, 255, 0.4),0px -3px 3px -3px rgba(255, 255, 255, 0.25),inset 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
-						    box-shadow: 0px 4px 4px -4px rgba(255, 255, 255, 0.4),0px -3px 3px -3px rgba(255, 255, 255, 0.25),inset 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
-						}*/
+		 }
 
 		.bar {
 			position:absolute;
@@ -660,3 +686,9 @@ PRE LOADER
 	 .info h2 {
 		 margin-right: 10vw;
 	 }
+
+@media screen and (max-width: 760px) {
+	 .logo-hw {
+		 width: 356px;
+	 }
+ }
